@@ -9,7 +9,7 @@ import Link from "next/link";
 import { headers } from "next/headers";
 
 export const metadata: Metadata = {
-  title: "Settings | AswaqDeal",
+  title: "Settings | Mankab",
   description: "Manage your account settings and preferences",
 };
 

@@ -3,7 +3,7 @@ export const supportNotificationTemplate = `<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>New Contact Form Submission - Aswaqdeal.com</title>
+  <title>New Contact Form Submission - Mankab.com</title>
     <style type="text/css">
       /* CLIENT-SPECIFIC STYLES */
       body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -110,7 +110,7 @@ export const supportNotificationTemplate = `<!DOCTYPE html>
             <div class="divider" style="height: 2px; background-color: #e0e0e0; margin: 0 auto 30px; width: 100px;"></div>
 
             <p class="mobile-text" style="margin-bottom: 24px; font-size: 16px;">
-              You have received a new message from the aswaqdeal.com contact form.
+              You have received a new message from the mankab.com contact form.
             </p>
 
             <table style="width: 100%; border-collapse: collapse; text-align: left;">
@@ -157,7 +157,7 @@ export const supportNotificationTemplate = `<!DOCTYPE html>
         <tr>
           <td align="center" style="padding: 20px; background-color: #f8fafc; font-size: 12px; color: #718096; border-radius: 0 0 8px 8px;">
             <p style="margin-bottom: 5px;">
-              &copy; 2025 Aswaqdeal.com. All rights reserved.
+              &copy; 2025 Mankab.com. All rights reserved.
             </p>
             <p style="margin-top: 0;">
               This is an automated message from our secure notification system.
@@ -318,7 +318,7 @@ export const userConfirmationTemplate = `<!DOCTYPE html>
         <tr>
           <td align="center" style="padding: 20px; background-color: #f8fafc; font-size: 12px; color: #718096; border-radius: 0 0 8px 8px;">
             <p style="margin-bottom: 5px;">
-              &copy; {{year}} Aswaqdeal.com. {{copyright}}
+              &copy; {{year}} Mankab.com. {{copyright}}
             </p>
             <p style="margin-top: 0;">
               {{automatedMessage}}
@@ -335,7 +335,7 @@ export const verificationRequestTemplate = `<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>New Verification Request - Aswaqdeal.com</title>
+  <title>New Verification Request - Mankab.com</title>
     <style type="text/css">
       /* CLIENT-SPECIFIC STYLES */
       body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -422,7 +422,7 @@ export const verificationRequestTemplate = `<!DOCTYPE html>
         <tr>
           <td align="center" style="padding: 20px; background-color: #f8fafc; font-size: 12px; color: #718096; border-radius: 0 0 8px 8px;">
             <p style="margin-bottom: 5px;">
-              &copy; {{year}} Aswaqdeal.com. All rights reserved.
+              &copy; {{year}} Mankab.com. All rights reserved.
             </p>
             <p style="margin-top: 0;">
               This is an automated message from our secure notification system.
@@ -439,7 +439,7 @@ export const verificationStatusTemplate = `<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Verification Status Update - Aswaqdeal.com</title>
+  <title>Verification Status Update - Mankab.com</title>
     <style type="text/css">
       /* CLIENT-SPECIFIC STYLES */
       body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -501,7 +501,7 @@ export const verificationStatusTemplate = `<!DOCTYPE html>
         <tr>
           <td align="center" style="padding: 20px; background-color: #f8fafc; font-size: 12px; color: #718096; border-radius: 0 0 8px 8px;">
             <p style="margin-bottom: 5px;">
-              &copy; {{year}} Aswaqdeal.com. {{copyright}}
+              &copy; {{year}} Mankab.com. {{copyright}}
             </p>
             <p style="margin-top: 0;">
               {{automatedMessage}}

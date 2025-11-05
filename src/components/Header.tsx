@@ -55,7 +55,7 @@ export default async function Header() {
             <Link href={getLocalizedPath("/", locale)} className="flex-shrink-0" prefetch={true}>
               <Image
                 src="/logo.svg"
-                alt="ASWAQDEAL"
+                alt="MANKAB"
                 width={100}
                 height={40}
                 className="h-16"

@@ -15,8 +15,8 @@ import { Locale } from "@/i18n.config";
 import getTrans from "@/utils/translation";
 
 export const metadata: Metadata = {
-  title: "Contact Us | AswaqDeal",
-  description: "Get in touch with the AswaqDeal team. We're here to help with your questions and feedback.",
+  title: "Contact Us | Mankab",
+  description: "Get in touch with the Mankab team. We're here to help with your questions and feedback.",
 };
 
 export default async function ContactPage() {
@@ -60,8 +60,8 @@ export default async function ContactPage() {
                       <div>
                         <CardTitle className="text-base mb-1">{t.contact.emailUs}</CardTitle>
                         <CardDescription>
-                          <a href="mailto:support@aswaqdeal.com" className="text-primary2 hover:underline">
-                            support@aswaqdeal.com
+                          <a href="mailto:support@mankab.com" className="text-primary2 hover:underline">
+                            support@mankab.com
                           </a>
                         </CardDescription>
                       </div>

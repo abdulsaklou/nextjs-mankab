@@ -39,8 +39,8 @@ const sendVerificationRequestNotification = async (request: VerificationRequest,
   const transporter = await createTransporter()
   if (!transporter) return false
 
-  const supportEmail = process.env.SUPPORT_EMAIL || 'support@aswaqdeal.com'
-  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@aswaqdeal.com'
+  const supportEmail = process.env.SUPPORT_EMAIL || 'support@mankab.com'
+  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@mankab.com'
   const adminUrl = process.env.NEXT_PUBLIC_URL ?
     `${process.env.NEXT_PUBLIC_URL}/admin/verifications` :
     'http://localhost:3000/admin/verifications'

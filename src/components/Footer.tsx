@@ -40,31 +40,31 @@ const Footer = async () => {
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/aswaqdeal.com4",
+      url: "https://www.instagram.com/mankab",
       icon: <InstagramLogo className="w-5 h-5" />,
       hoverColor: "group-hover:text-pink-600"
     },
     {
       name: "Facebook",
-      url: "https://www.facebook.com/profile.php?id=61573841013544&rdid=U7m4G5to9Hb1T5jB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F164fR6eJW9%2F",
+      url: "https://www.facebook.com/mankab",
       icon: <FacebookLogo className="w-5 h-5" />,
       hoverColor: "group-hover:text-blue-700"
     },
     {
       name: "TikTok",
-      url: "https://www.tiktok.com/@aswaqdeal.com?is_from_webapp=1&sender_device=pc",
+      url: "https://www.tiktok.com/@mankab",
       icon: <TiktokIcon />,
       hoverColor: "group-hover:text-black"
     },
     {
       name: "Pinterest",
-      url: "https://www.pinterest.com/aswaqdealcom454/?invite_code=be0e1646502c4f98abf3f1dacef69390&sender=1147714423696409266",
+      url: "https://www.pinterest.com/mankab",
       icon: <PinterestIcon />,
       hoverColor: "group-hover:text-red-600"
     },
     {
       name: "Snapchat",
-      url: "https://www.snapchat.com/add/aswaqdeal.com?share_id=H2liFY6OdyU&locale=ar-AE",
+      url: "https://www.snapchat.com/add/mankab",
       icon: <SnapchatIcon />,
       hoverColor: "group-hover:text-yellow-400"
     }
@@ -79,7 +79,7 @@ const Footer = async () => {
             <Link href={getLocalizedPath('/')} className="block mb-8">
                 <Image
                 src="/logo.svg"
-                alt="AswaqDeal"
+                alt="Mankab"
                 width={150}
                 height={50}
                 className="h-auto"

@@ -49,7 +49,7 @@ const prepareUnreadMessageEmail = (data: UnreadMessageEmailData, locale: string 
   // Simple localization for notification email
   const translations = {
     en: {
-      subject: 'New Message on AswaqDeal',
+      subject: 'New Message on Mankab',
       newMessage: 'New Message',
       from: 'From',
       regarding: 'Regarding',
@@ -57,11 +57,11 @@ const prepareUnreadMessageEmail = (data: UnreadMessageEmailData, locale: string 
       viewConversation: 'View Conversation',
       unreadMessage: 'You have an unread message',
       notReceiveUpdates: 'If you don\'t want to receive email updates, you can change your notification settings in your account preferences.',
-      team: 'The AswaqDeal Team',
+      team: 'The Mankab Team',
       automaticMessage: 'This is an automated message from our secure notification system.'
     },
     ar: {
-  subject: 'رسالة جديدة على AswaqDeal',
+  subject: 'رسالة جديدة على Mankab',
       newMessage: 'رسالة جديدة',
       from: 'من',
       regarding: 'بخصوص',
@@ -69,7 +69,7 @@ const prepareUnreadMessageEmail = (data: UnreadMessageEmailData, locale: string 
       viewConversation: 'عرض المحادثة',
       unreadMessage: 'لديك رسالة غير مقروءة',
       notReceiveUpdates: 'إذا كنت لا ترغب في تلقي تحديثات البريد الإلكتروني، يمكنك تغيير إعدادات الإشعارات في تفضيلات حسابك.',
-  team: 'فريق AswaqDeal',
+  team: 'فريق Mankab',
       automaticMessage: 'هذه رسالة آلية من نظام الإشعارات الآمن الخاص بنا.'
     }
   }
@@ -79,7 +79,7 @@ const prepareUnreadMessageEmail = (data: UnreadMessageEmailData, locale: string 
   const direction = isRtl ? 'rtl' : 'ltr'
   const textAlign = isRtl ? 'right' : 'left'
   const year = new Date().getFullYear()
-  const appUrl = process.env.NEXT_PUBLIC_URL || 'https://aswaqdeal.com'
+  const appUrl = process.env.NEXT_PUBLIC_URL || 'https://mankab.com'
 
   // Create a safe message preview (limit length and escape HTML)
   const safeMessagePreview = data.messagePreview
@@ -138,7 +138,7 @@ const prepareUnreadMessageEmail = (data: UnreadMessageEmailData, locale: string 
 
         <div class="footer">
           <p style="margin-bottom: 5px;">
-            &copy; ${year} Aswaqdeal.com. ${isRtl ? 'جميع الحقوق محفوظة' : 'All rights reserved'}
+            &copy; ${year} Mankab.com. ${isRtl ? 'جميع الحقوق محفوظة' : 'All rights reserved'}
           </p>
           <p style="margin-top: 0;">
             ${t.automaticMessage}
@@ -159,8 +159,8 @@ const sendUnreadMessageNotification = async (data: UnreadMessageEmailData, local
     const emailHtml = prepareUnreadMessageEmail(data, locale)
 
     const translations = {
-  en: { subject: 'New Message on AswaqDeal' },
-  ar: { subject: 'رسالة جديدة على AswaqDeal' }
+  en: { subject: 'New Message on Mankab' },
+  ar: { subject: 'رسالة جديدة على Mankab' }
     }
 
     await transporter.sendMail({

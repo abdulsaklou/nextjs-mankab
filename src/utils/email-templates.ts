@@ -139,7 +139,7 @@ export async function prepareVerificationStatusEmail(
         message: 'Your verification request has been approved. You can now access all verified user features.',
         actionLabel: 'Go to Dashboard',
         closing: 'Best regards,',
-  team: 'The AswaqDeal Team'
+  team: 'The Mankab Team'
       },
       rejected: {
         title: 'Verification Request Rejected',
@@ -149,7 +149,7 @@ export async function prepareVerificationStatusEmail(
         adminNotesLabel: 'Additional Notes',
         actionLabel: 'Submit New Request',
         closing: 'Best regards,',
-  team: 'The AswaqDeal Team'
+  team: 'The Mankab Team'
       }
     },
     ar: {
@@ -159,7 +159,7 @@ export async function prepareVerificationStatusEmail(
         message: 'تم قبول طلب التحقق الخاص بك. يمكنك الآن الوصول إلى جميع ميزات المستخدم المتحقق منه.',
         actionLabel: 'الذهاب إلى لوحة التحكم',
         closing: 'مع أطيب التحيات،',
-  team: 'فريق AswaqDeal'
+  team: 'فريق Mankab'
       },
       rejected: {
         title: 'تم رفض طلب التحقق',
@@ -169,7 +169,7 @@ export async function prepareVerificationStatusEmail(
         adminNotesLabel: 'ملاحظات إضافية',
         actionLabel: 'تقديم طلب جديد',
         closing: 'مع أطيب التحيات،',
-  team: 'فريق AswaqDeal'
+  team: 'فريق Mankab'
       }
     }
   }

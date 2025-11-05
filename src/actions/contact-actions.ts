@@ -52,11 +52,11 @@ const sendSupportNotification = async (formData: ContactFormData) => {
   const transporter = await createTransporter()
   if (!transporter) return false
 
-  const supportEmail = process.env.SUPPORT_EMAIL || 'support@aswaqdeal.com'
-  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@aswaqdeal.com'
+  const supportEmail = process.env.SUPPORT_EMAIL || 'support@mankab.com'
+  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@mankab.com'
 
   try {
-  // Use format "User Name <noreply@aswaqdeal.com>" to make it appear from the user
+  // Use format "User Name <noreply@mankab.com>" to make it appear from the user
     // while actually sending from your system email
     const fromName = `${formData.firstName} ${formData.lastName}`
 
@@ -84,20 +84,20 @@ const sendUserConfirmation = async (formData: ContactFormData, locale: string = 
   // Simple localization for confirmation email
   const translations = {
     en: {
-      subject: 'Thank you for contacting AswaqDeal',
+      subject: 'Thank you for contacting Mankab',
       greeting: `Dear {{firstName}},`,
-      message: 'Thank you for contacting AswaqDeal. We have received your message and will get back to you as soon as possible.',
+      message: 'Thank you for contacting Mankab. We have received your message and will get back to you as soon as possible.',
       reference: 'For your reference, here is a copy of your message:',
       closing: 'Best regards,',
-      team: 'The AswaqDeal Team'
+      team: 'The Mankab Team'
     },
     ar: {
-      subject: 'شكراً للتواصل مع AswaqDeal',
+      subject: 'شكراً للتواصل مع Mankab',
       greeting: `عزيزي {{firstName}}،`,
       message: 'شكراً للتواصل معنا. لقد استلمنا رسالتك وسنرد عليك في أقرب وقت ممكن.',
       reference: 'للرجوع إليها، إليك نسخة من رسالتك:',
       closing: 'مع أطيب التحيات،',
-      team: 'فريق AswaqDeal'
+      team: 'فريق Mankab'
     }
   }
 

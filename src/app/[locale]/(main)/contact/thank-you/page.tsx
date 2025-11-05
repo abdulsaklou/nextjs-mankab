@@ -7,8 +7,8 @@ import { Locale } from "@/i18n.config";
 import getTrans from "@/utils/translation";
 
 export const metadata: Metadata = {
-  title: "Thank You | AswaqDeal",
-  description: "Thank you for contacting AswaqDeal. We've received your message and will respond shortly.",
+  title: "Thank You | Mankab",
+  description: "Thank you for contacting Mankab. We've received your message and will respond shortly.",
 };
 
 export default async function ThankYouPage() {

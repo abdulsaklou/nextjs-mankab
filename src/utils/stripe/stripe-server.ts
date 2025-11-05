@@ -8,7 +8,7 @@ export function getStripe(): Stripe {
     stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY||"", {
       apiVersion: '2025-01-27.acacia', // Use the latest API version
       appInfo: {
-  name: 'ASWAQDEAL',
+  name: 'MANKAB',
         version: '1.0.0',
       },
     });

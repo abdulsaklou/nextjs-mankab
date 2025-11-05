@@ -52,7 +52,7 @@ export default function SellHeader() {
         <div className="flex-1 flex justify-center">
           <Image
             src="/logo.svg"
-            alt="ASWAQDEAL"
+            alt="MANKAB"
             width={200}
             height={60}
             className="h-20 w-auto"

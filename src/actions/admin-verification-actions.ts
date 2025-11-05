@@ -62,7 +62,7 @@ const sendVerificationStatusEmail = async (
   const transporter = await createTransporter()
   if (!transporter) return false
 
-  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@aswaqdeal.com'
+  const systemFromEmail = process.env.SMTP_FROM_EMAIL || 'noreply@mankab.com'
   const status = request.verification_status === 'approved' ? 'approved' : 'rejected'
 
   try {

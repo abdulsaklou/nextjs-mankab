@@ -55,7 +55,7 @@ export async function generateMetadata({
   const locale = (await params).locale;
 
   const shared = {
-  metadataBase: new URL('https://aswaqdeal.com'),
+  metadataBase: new URL('https://mankab.com'),
     icons: {
       icon: '/favicon.ico',
       apple: '/apple-icon.png',
@@ -78,7 +78,7 @@ export async function generateMetadata({
     verification: {
       google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION, // Add Google Search Console verification
     },
-  authors: [{ name: 'AswaqDeal' }], // Add author information
+  authors: [{ name: 'Mankab' }], // Add author information
     category: 'online marketplace',
   };
 
@@ -113,38 +113,38 @@ export async function generateMetadata({
       ...shared,
       robots: defaultRobots,
       title: {
-  default: 'AswaqDeal | أسرع طريقة للبيع والشراء في الإمارات',
-  template: '%s | AswaqDeal',
+  default: 'Mankab | أسرع طريقة للبيع والشراء في الإمارات',
+  template: '%s | Mankab',
       },
       description:
-  'بع بسرعة وسهولة في الإمارات مع AswaqDeal! أسرع طريقة لبيع السيارات، الإلكترونيات، الأزياء والمزيد في دبي وجميع أنحاء الإمارات. بدون عمولة وبأسعار اشتراك منخفضة.',
+  'بع بسرعة وسهولة في الإمارات مع Mankab! أسرع طريقة لبيع السيارات، الإلكترونيات، الأزياء والمزيد في دبي وجميع أنحاء الإمارات. بدون عمولة وبأسعار اشتراك منخفضة.',
       keywords: [
         'شراء وبيع في الإمارات', 'سوق إلكتروني', 'بيع سيارات في دبي',
-  'شراء إلكترونيات مستعملة', 'بيع ملابس مقابل النقد', 'بيع أثاث مستعمل', 'AswaqDeal', 'AswaqDeal',
+  'شراء إلكترونيات مستعملة', 'بيع ملابس مقابل النقد', 'بيع أثاث مستعمل', 'Mankab', 'Mankab',
         'سوق دبي', 'موقع إعلانات مجاني', 'سوق أبو ظبي', 'بدون عمولة'
       ],
       openGraph: {
-  title: 'AswaqDeal | أسرع طريقة للبيع والشراء في الإمارات',
+  title: 'Mankab | أسرع طريقة للبيع والشراء في الإمارات',
         description:
-      'بع بسرعة وسهولة في الإمارات مع AswaqDeal! أسرع طريقة لبيع السيارات، الإلكترونيات، الأزياء والمزيد. بدون عمولة وبأسعار اشتراك منخفضة.',
-  url: 'https://aswaqdeal.com/ar',
-  siteName: 'AswaqDeal',
+      'بع بسرعة وسهولة في الإمارات مع Mankab! أسرع طريقة لبيع السيارات، الإلكترونيات، الأزياء والمزيد. بدون عمولة وبأسعار اشتراك منخفضة.',
+  url: 'https://mankab.com/ar',
+  siteName: 'Mankab',
         locale: 'ar_AE',
         type: 'website',
         images: [
           {
-            url: 'https://aswaqdeal.com/og-image.png',
+            url: 'https://mankab.com/og-image.png',
             width: 1200,
             height: 630,
-            alt: 'AswaqDeal - سوق الإمارات',
+            alt: 'Mankab - سوق الإمارات',
           },
         ],
       },
       twitter: {
         card: 'summary_large_image',
-        title: 'AswaqDeal | سوق الإمارات الإلكتروني',
+        title: 'Mankab | سوق الإمارات الإلكتروني',
         description: 'سوق الإمارات الإلكتروني الرائد - بيع واشتري بسهولة وأمان',
-  images: ['https://aswaqdeal.com/twitter-image-ar.jpg'],
+  images: ['https://mankab.com/twitter-image-ar.jpg'],
       },
     };
   }
@@ -153,39 +153,39 @@ export async function generateMetadata({
     ...shared,
     robots: defaultRobots,
     title: {
-  default: 'AswaqDeal | Fastest Way to Buy & Sell in UAE',
-  template: '%s | AswaqDeal',
+  default: 'Mankab | Fastest Way to Buy & Sell in UAE',
+  template: '%s | Mankab',
     },
     description:
-  'Sell Fast & Easy in UAE with AswaqDeal! The fastest way to sell cars, electronics, fashion, and more in Dubai and across the UAE. Commission-free with the cheapest subscription rates.',
+  'Sell Fast & Easy in UAE with Mankab! The fastest way to sell cars, electronics, fashion, and more in Dubai and across the UAE. Commission-free with the cheapest subscription rates.',
     keywords: [
       'Buy and sell in UAE', 'Online marketplace UAE', 'Sell cars fast in Dubai',
-  'Cash for phones UAE', 'Sell clothes online', 'Used furniture UAE','AswaqDeal',
+  'Cash for phones UAE', 'Sell clothes online', 'Used furniture UAE','Mankab',
       'Cheap phones UAE', 'Cheap cars UAE', 'Dubai marketplace', 'Abu Dhabi classifieds',
       'Second hand items UAE', 'Commission-free marketplace'
     ],
     openGraph: {
-  title: 'AswaqDeal | Fastest Way to Buy & Sell in UAE',
+  title: 'Mankab | Fastest Way to Buy & Sell in UAE',
       description:
-        "Sell Fast & Easy in UAE with AswaqDeal! The fastest way to sell cars, electronics, fashion, and more in Dubai and across the UAE. Enjoy the cheapest subscription rates and reach trusted buyers instantly.",
-      url: 'https://aswaqdeal.com/en',
-      siteName: 'AswaqDeal',
+        "Sell Fast & Easy in UAE with Mankab! The fastest way to sell cars, electronics, fashion, and more in Dubai and across the UAE. Enjoy the cheapest subscription rates and reach trusted buyers instantly.",
+      url: 'https://mankab.com/en',
+      siteName: 'Mankab',
       locale: 'en_US',
       type: 'website',
       images: [
         {
-          url: 'https://aswaqdeal.com/og-image.png',
+          url: 'https://mankab.com/og-image.png',
           width: 1200,
           height: 630,
-          alt: 'AswaqDeal - UAE Marketplace',
+          alt: 'Mankab - UAE Marketplace',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-  title: 'AswaqDeal | UAE Marketplace',
+  title: 'Mankab | UAE Marketplace',
       description: 'Leading UAE online marketplace - Buy & sell easily and safely',
-  images: ['https://aswaqdeal.com/twitter-image.jpg'],
+  images: ['https://mankab.com/twitter-image.jpg'],
     },
   };
 }
@@ -220,13 +220,13 @@ export default async function RootLayout({
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            name: 'AswaqDeal',
-            url: 'https://aswaqdeal.com',
-            logo: 'https://aswaqdeal.com/logo.png',
+            name: 'Mankab',
+            url: 'https://mankab.com',
+            logo: 'https://mankab.com/logo.png',
             sameAs: [
-              'https://www.facebook.com/aswaqonline',
-              'https://www.instagram.com/aswaqdeal.com',
-              'https://twitter.com/aswaqonline'
+              'https://www.facebook.com/mankab',
+              'https://www.instagram.com/mankab.com',
+              'https://twitter.com/mankab'
             ],
             contactPoint: {
               '@type': 'ContactPoint',
@@ -245,11 +245,11 @@ export default async function RootLayout({
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'AswaqDeal',
-            url: 'https://aswaqdeal.com',
+            name: 'Mankab',
+            url: 'https://mankab.com',
             potentialAction: {
               '@type': 'SearchAction',
-              target: 'https://aswaqdeal.com/search?q={search_term_string}',
+              target: 'https://mankab.com/search?q={search_term_string}',
               'query-input': 'required name=search_term_string'
             }
           })
